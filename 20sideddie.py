@@ -6,6 +6,7 @@ import random
 import signal
 import time
 import platform
+import os
 
 roll = random.randint(1, 20)
 print(roll)
