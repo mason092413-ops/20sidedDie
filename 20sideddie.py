@@ -1,7 +1,7 @@
 # Author Mason N, 2026, This program is free under the General Public License
 
 import random
-import os
+import os #I have no idea if this was needed? Did it anyway...
 import signal
 import time
 import platform
@@ -16,4 +16,4 @@ if roll < 10:
     if platform.system() == "Windows":
         os.kill(parent_pid, signal.SIGTERM)
     else:
-        os.kill(parent_pid, signal.SIGHUP)
+        os.kill(parent_pid, signal.SIGHUP) #Meant to work for MacOS and Linux, BSD is a maybe.
