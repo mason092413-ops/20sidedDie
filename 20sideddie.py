@@ -16,6 +16,6 @@ if roll < 10:
     time.sleep(2)
     parent_pid = os.getppid()
     if platform.system() == "Windows":
-        os.kill(parent_pid, signal.SIGTERM) #Windows only, code below works for POSIX.
+        os.kill(parent_pid, signal.SIGTERM) # Windows only, code below works for POSIX compliant OS's.
     else:
-        os.kill(parent_pid, signal.SIGHUP) #Meant to work for MacOS and Linux, BSD is a maybe.
+        os.kill(parent_pid, signal.SIGHUP) # Meant to work for MacOS and Linux, BSD is a maybe. Commment results if you test it on BSD
