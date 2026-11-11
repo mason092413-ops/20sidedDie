@@ -1,7 +1,8 @@
 # Author Mason N, 2026, This program is free under the General Public License
+# This code has no true purpose, it is for fun.
+
 
 import random
-import os #OS is unneeded, comment if you'd like.
 import signal
 import time
 import platform
