@@ -1,4 +1,4 @@
-# Author Mason N, 2026, This program is free under the General Public License
+# Author Mason N, 2026, This program is free under the GNU General Public License V3. See more at https://www.gnu.org/licenses/gpl-3.0.en.html#license-text
 # This code has no true purpose, it is for fun.
 
 
